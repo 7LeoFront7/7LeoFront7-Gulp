@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+@import 'null';
+
+// подключения компонентов страницы
+@import "./components/header";
+@import './components/mainsection';
+
+.wrapper{
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
